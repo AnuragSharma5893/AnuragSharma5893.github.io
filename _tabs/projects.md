@@ -75,13 +75,41 @@ streamlit run app.py
 ## Configuration
 
 ### Available Models
-| Model Name          | Size    | Best For                  |
-|---------------------|---------|---------------------------|
-| `deepseek-r1:1.5b`  | 1.5B    | Quick answers, basic code |
-| `deepseek-r1:3b`    | 3B      | Balanced performance      |
-| `deepseek-r1:32b`   | 32B     | Complex problem solving   |
-| `llava:latest`      | 7B      | Multimodal tasks          |
-| `llama3.2:latest`   | 70B     | Advanced reasoning        |
+## LLM Models
+
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+
+  <div style="flex: 1; min-width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Model Name:</strong> `deepseek-r1:1.5b`<br>
+    <strong>Size:</strong> 1.5B<br>
+    <strong>Best For:</strong> Quick answers, basic code
+  </div>
+
+  <div style="flex: 1; min-width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Model Name:</strong> `deepseek-r1:3b`<br>
+    <strong>Size:</strong> 3B<br>
+    <strong>Best For:</strong> Balanced performance
+  </div>
+
+  <div style="flex: 1; min-width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Model Name:</strong> `deepseek-r1:32b`<br>
+    <strong>Size:</strong> 32B<br>
+    <strong>Best For:</strong> Complex problem solving
+  </div>
+
+  <div style="flex: 1; min-width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Model Name:</strong> `llava:latest`<br>
+    <strong>Size:</strong> 7B<br>
+    <strong>Best For:</strong> Multimodal tasks
+  </div>
+
+  <div style="flex: 1; min-width: 200px; border: 1px solid #ddd; padding: 10px; border-radius: 5px;">
+    <strong>Model Name:</strong> `llama3.2:latest`<br>
+    <strong>Size:</strong> 70B<br>
+    <strong>Best For:</strong> Advanced reasoning
+  </div>
+</div>
+
 
 ### Temperature Guide
 - **Low (0.0-0.3)**: Factual, deterministic responses

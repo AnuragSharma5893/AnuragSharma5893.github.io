@@ -32,7 +32,7 @@ I am a **software developer** at OpenNLP Labs with a strong passion for **human-
 ### 📬 Let's Connect!
 - **GitHub:** [github.com/yourusername](https://github.com/yourusername)
 - **LinkedIn:** [linkedin.com/in/anuragsharma](https://linkedin.com/in/anuragsharma)
-- **Email:** your.email@example.com
+- **Email:**  anuragsharma58693@gmail.com
 
 > "Bridging the gap between technology and human cognition!"
 {: .prompt-tip}
