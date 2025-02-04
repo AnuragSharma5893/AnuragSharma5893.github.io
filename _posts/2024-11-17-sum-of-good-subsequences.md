@@ -1,11 +1,12 @@
 ---
-title: "Sum of Good Subsequences"
+title: "3351. Sum of Good Subsequences"
 date: 2024-11-17 00:00:00 +0800
 categories: [Leetcode]
 tages: [Leetcode_potd]
 ---
 
 # Sum of Good Subsequences
+![image1](https://miro.medium.com/v2/resize:fit:720/format:webp/1*N0YN64RifWvDOPuG3VXf7A.png)
 
 ## Approach to the Problem
 We are tasked with finding the sum of all possible good subsequences in a given array nums where a good subsequence satisfies the condition that the absolute difference between any two consecutive elements is exactly 1. Here's how we can systematically solve this problem.
@@ -48,6 +49,8 @@ Modulo:
 Since the answer can be large, perform all computations modulo 10⁹+7.
 Final Sum:
 Sum up all values in the sum array to get the result.
+
+```
 int sumOfGoodSubsequences(int[] nums) {
     int MOD = 1e9 + 7;
     int MAX = 1e5 + 1;
@@ -88,6 +91,9 @@ int sumOfGoodSubsequences(int[] nums) {
 
     return (int) result;
 }
+```
+
+```
 class Solution {
     public int sumOfGoodSubsequences(int[] nums) {
         long[] sum = new long[(int) (1e5 + 1)];
@@ -123,23 +129,29 @@ class Solution {
         return (int) (res % mod);
     } 
 }
-Time Complexity
-Frequency Calculation:
-O(n), where n is the length of the array.
-Dynamic Programming Update:
-O(range of numbers) = O(10⁵), as we iterate over the possible range of values.
-Final Sum Computation:
-O(105)O(10⁵)O(105).
-Overall Time Complexity: O(n+10⁵)≈ O(n) for n≤10⁵
+```
 
-Space Complexity
-Frequency array: O(10⁵).
-DP arrays (sum and count): O(10⁵).
-Overall Space Complexity: O(10⁵).
+## Time Complexity
+
+`Frequency Calculation: O(n), where n is the length of the array.`
+
+`Dynamic Programming Update: O(range of numbers) = O(10⁵), as we iterate over the possible range of values.`
+
+`Final Sum Computation: O(105)O(10⁵)O(105).`
+
+`Overall Time Complexity: O(n+10⁵)≈ O(n) for n≤10⁵`
+
+## Space Complexity
+`Frequency array: O(10⁵).`
+
+`DP arrays (sum and count): O(10⁵).`
+
+`Overall Space Complexity: O(10⁵).`
 
 How to Tackle Similar Problems
+
 1. Break Down the Problem:
-Identify properties of valid subsequences (like the condition ∣a[i]−a[i−1]∣=1|a[i] — a[i-1]| = 1∣a[i]−a[i−1]∣=1).
+Identify properties of valid subsequences (like the condition `∣a[i]−a[i−1]∣=1|a[i] — a[i-1]| = 1∣a[i]−a[i−1]∣=1`).
 2. Use Frequency Arrays:
 Preprocess the array to avoid redundant computation.
 3. Dynamic Programming:
