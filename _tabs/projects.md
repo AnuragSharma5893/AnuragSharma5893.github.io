@@ -4,16 +4,9 @@ icon: fa fa-rocket
 order: 5
 ---
 
-```
-name: The Fabulous
-tools: [Android, Material Design]
-image: https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/material_design_awards_inline_002.jpg
-description: Fabulous is a science-based app, incubated in Duke's Behavioral Economics Lab, that will help you build healthy rituals into your life, just like an elite athlete.
-external_url: https://thefabulous.co/
-```
 
 > This app is a dummy of Big available LLM model using models like ollama deepseek-r1:1.5b
-{: .prompt-tip}
+{: .prompt-info}
 
 # LLM_model
  This app is a dummy of the Big available LLM model using models like Ollama deepseek-r1:1.5b 
