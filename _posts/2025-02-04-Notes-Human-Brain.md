@@ -2,7 +2,7 @@
 title: "The Human Brain"
 date: 2024-01-31 00:00:00 +0800
 categories: [Psychology]
-tags: [Human Brain]
+tags: [human-brain]
 ---
 
 ## MIT 9.13 The Human Brain, Spring 2019
