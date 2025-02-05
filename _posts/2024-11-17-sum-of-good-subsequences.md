@@ -2,7 +2,7 @@
 title: "3351. Sum of Good Subsequences"
 date: 2024-11-17 00:00:00 +0800
 categories: [Leetcode]
-tages: [Leetcode_potd]
+tages: [Leetcode_potd, Leetcode]
 ---
 
 # Sum of Good Subsequences

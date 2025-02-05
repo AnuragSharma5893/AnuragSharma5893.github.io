@@ -1,7 +1,7 @@
 ---
-title: "LLM_Model using Ollama"
+title: "Build LLM_Model using Ollama"
 date: 2025-01-31 00:00:00 +0800
-categories: [LLM_Model, DeepSeek, ChatGPT]
+categories: [LLM Model]
 tages: [Projects]
 ---
 
