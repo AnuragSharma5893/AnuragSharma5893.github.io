@@ -2,8 +2,7 @@
 title: "2458. Height of the Binary Tree"
 date: 2024-10-26 00:00:00 +0800
 categories: [Leetcode]
-tages: [Leetcode_potd, Binary Tree, Java, Leetcode]
-link: "https://medium.com/@anuragsharma58693/2458-height-of-binary-tree-after-subtree-removal-queries-e558db0e6640"
+tage: [Leetcode_potd, Binary Tree, Java, Leetcode]
 ---
 
 # Height of Binary Tree After Subtree Removal Queries

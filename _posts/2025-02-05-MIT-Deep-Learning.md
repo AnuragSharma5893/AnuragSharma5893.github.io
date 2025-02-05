@@ -3,7 +3,6 @@ title: "MIT 6.S191 Introduction to Deep Learning"
 date: 2024-02-05 00:00:00 +0800
 categories: [DeepLearning]
 tages: [MIT, Deep Learning, AI, Machine Learning]
-link: "https://introtodeeplearning.com/"
 ---
 
 # MIT 6.S191 Introduction to Deep Learning
