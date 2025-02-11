@@ -8,6 +8,3 @@ permalink: /tags/
 # Tags
 
 Here you can find all the tags used in the blog.
-
-- [Leetcode](/tags/leetcode/)
-- [Interview](/tags/interview/)
