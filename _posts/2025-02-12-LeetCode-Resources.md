@@ -85,7 +85,7 @@ You can adjust the timeline above according to your schedule.
 - [Elements of Programming Interviews](https://www.amazon.com/Elements-Programming-Interviews-Insiders-Guide/dp/1479274836)
 - [Competitive Programmer's Handbook](https://github.com/Avinash987/Coding/blob/master/CodingBook.pdf)
 
-> [Download the PDF of Cracking the Coding Interview](/assets/Notes/Cracking the Coding Interview 189 Programming Questions and Solutions by Gayle Laakmann McDowell.pdf")
+> [Download the PDF of Cracking the Coding Interview](/assets/Notes/crackCodeInterview.pdf )
 {: .prompt-info}
 <iframe src="{{ site.baseurl }}/assets/Notes/Cracking the Coding Interview 189 Programming Questions and Solutions by Gayle Laakmann McDowell.pdf" width="100%" height="600px"></iframe>
 
