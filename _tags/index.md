@@ -9,5 +9,5 @@ permalink: /tags/
 
 Here you can find all the tags used in the blog.
 
-leetcode
-Interview
+- [Leetcode](/tags/leetcode/)
+- [Interview](/tags/interview/)
