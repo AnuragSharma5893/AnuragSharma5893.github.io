@@ -3,7 +3,6 @@
 ---
 title: "Interview"
 layout: tag
-permalink: /tags/interview/
 ---
 
 # Interview

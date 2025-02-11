@@ -2,7 +2,6 @@
 ---
 title: "Leetcode"
 layout: tag
-permalink: /tags/leetcode/
 ---
 
 # Leetcode
