@@ -9,7 +9,7 @@
 
 # The System Design Primer
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/jj3A5N8.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/jj3A5N8.png)
 
 ## Motivation
 
@@ -40,7 +40,7 @@ Additional topics for interview prep:
 
 ## Anki flashcards
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/zdCAkB3.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/zdCAkB3.png)
 
 The provided [Anki flashcard decks](https://apps.ankiweb.net/) use spaced repetition to help you retain key system design concepts.
 
@@ -54,7 +54,7 @@ Great for use while on-the-go.
 
 Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/b4YtAEN.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/b4YtAEN.png)
 
 Check out the sister repo [**Interactive Coding Challenges**](https://github.com/donnemartin/interactive-coding-challenges), which contains an additional Anki deck:
 
@@ -81,7 +81,7 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
 >
 > Each section contains links to more in-depth resources.
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/jrUBAF7.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/jrUBAF7.png)
 
 * [System design topics: start here](#system-design-topics-start-here)
     * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
@@ -595,7 +595,7 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
 
 ## Content delivery network
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/h9TAuGI.jpg)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/h9TAuGI.jpg)
 
 A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content.  The site's DNS resolution will tell clients which server to contact.
 
@@ -838,7 +838,7 @@ Federation (or functional partitioning) splits up databases by function.  For ex
 
 #### Sharding
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/wU8x5Id.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/wU8x5Id.png)
 
 Sharding distributes data across different databases such that each database can only manage a subset of the data.  Taking a users database as an example, as the number of users increases, more shards are added to the cluster.
 
@@ -1059,7 +1059,7 @@ Sample data well-suited for NoSQL:
 
 ## Cache
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/Q6z24La.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/Q6z24La.png)
 
 Caching improves page load times and can reduce the load on your servers and databases.  In this model, the dispatcher will first lookup if the request has been made before and try to find the previous result to return, in order to save the actual execution.
 
@@ -1126,7 +1126,7 @@ Since you can only store a limited amount of data in cache, you'll need to deter
 
 #### Cache-aside
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/ONjORqk.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/ONjORqk.png)
 
 The application is responsible for reading and writing from storage.  The cache does not interact with storage directly.  The application does the following:
 
@@ -1203,7 +1203,7 @@ In write-behind, the application does the following:
 
 #### Refresh-ahead
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/kxtjqgE.png)
+![image](https://github.com/donnemartin/system-design-primer/raw/master/images/kxtjqgE.png)
 
 You can configure the cache to automatically refresh any recently accessed cache entry prior to its expiration.
 
@@ -1321,7 +1321,7 @@ Use TCP over UDP when:
 
 ### User datagram protocol (UDP)
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/yzDrJtA.jpg)
+![udp](https://github.com/donnemartin/system-design-primer/raw/master/images/yzDrJtA.jpg)
 
 UDP is connectionless.  Datagrams (analogous to packets) are guaranteed only at the datagram level.  Datagrams might reach their destination out of order or not at all.  UDP does not support congestion control.  Without the guarantees that TCP support, UDP is generally more efficient.
 
@@ -1346,7 +1346,7 @@ Use UDP over TCP when:
 
 ### Remote procedure call (RPC)
 
-![](https://github.com/donnemartin/system-design-primer/raw/master/images/iF4Mkb5.png)
+![rpc](https://github.com/donnemartin/system-design-primer/raw/master/images/iF4Mkb5.png)
 
 In an RPC, a client causes a procedure to execute on a different address space, usually a remote server.  The procedure is coded as if it were a local procedure call, abstracting away the details of how to communicate with the server from the client program.  Remote calls are usually slower and less reliable than local calls so it is helpful to distinguish RPC calls from local calls.  Popular RPC frameworks include [Protobuf](https://developers.google.com/protocol-buffers/), [Thrift](https://thrift.apache.org/), and [Avro](https://avro.apache.org/docs/current/).
 
@@ -1430,7 +1430,7 @@ REST is focused on exposing data.  It minimizes the coupling between client/serv
 | Update an item    | **POST** /modifyItem<br/>{<br/>"itemid": "456";<br/>"key": "value"<br/>} | **PUT** /items/456<br/>{<br/>"key": "value"<br/>} |
 | Delete an item | **POST** /removeItem<br/>{<br/>"itemid": "456"<br/>} | **DELETE** /items/456 |
 
-![](https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/)
+![ap](https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/)
 
 #### Source(s) and further reading: REST and RPC
 
