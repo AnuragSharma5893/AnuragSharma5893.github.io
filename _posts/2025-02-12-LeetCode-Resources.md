@@ -86,7 +86,7 @@ You can adjust the timeline above according to your schedule.
 
 > [Download the PDF of Cracking the Coding Interview](/assets/Notes/crackCodeInterview.pdf )
 {: .prompt-info}
-<iframe src="{{ site.baseurl }}/assets/Notes/Cracking the Coding Interview 189 Programming Questions and Solutions by Gayle Laakmann McDowell.pdf" width="100%" height="600px"></iframe>
+<iframe src="{{ site.baseurl }}/assets/Notes/crackCodeInterview.pdf" width="100%" height="600px"></iframe>
 
 ## Courses
 - [Grokking the Coding Interview](https://www.designgurus.io/course/grokking-the-coding-interview)
