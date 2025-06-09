@@ -30,8 +30,9 @@ Driven, curious, and constantly evolving, Anurag is the perfect blend of a devel
 
 ### 📬 Let's Connect!
 - **GitHub:** [github.com/yourusername](https://github.com/yourusername)
-- **LinkedIn:** [linkedin.com/in/anuragsharma](https://linkedin.com/in/anuragsharma)
+- **LinkedIn:** [linkedin.com/in/anuragsharma](https://www.linkedin.com/in/anurag-sharma-6aa7ab216/)
 - **Email:**  anuragsharma58693@gmail.com
+- **Website:** [Link](https://anu0x7d4.netlify.app/)
 
 > "Bridging the gap between technology and human cognition!"
 {: .prompt-tip}
