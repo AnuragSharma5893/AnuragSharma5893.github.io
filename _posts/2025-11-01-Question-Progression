@@ -1,0 +1,91 @@
+---
+title: "🚀 LeetCode Learning Path — From Basics to Advanced"
+date: 2025-11-01 00:00:00 +0800
+categories: [Leetcode]
+tage: [Leetcode]
+---
+
+# 🚀 LeetCode Learning Path — From Basics to Advanced
+
+A curated list of **10 essential LeetCode problems** selected to help beginners gradually master programming fundamentals, data structures, and algorithms—just like we do at Meta when guiding new engineers!
+
+---
+
+## 🧩 Stage 1: Programming Foundations  
+> *Focus:* Loops, conditionals, basic array & string manipulation
+
+1️⃣ **[Two Sum](https://leetcode.com/problems/two-sum/)**  
+- Concepts: Arrays, HashMap, brute force → optimization  
+- Key Idea: Transition from O(n²) to O(n)
+
+2️⃣ **[Roman to Integer](https://leetcode.com/problems/roman-to-integer/)**  
+- Concepts: String parsing, rule-based conditions  
+- Key Idea: Efficient mapping and logical iteration
+
+---
+
+## ⚙️ Stage 2: Arrays & Strings  
+> *Focus:* Two pointers, sliding window, frequency logic
+
+3️⃣ **[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)**  
+- Concepts: Greedy, one-pass algorithm  
+- Key Idea: Track minimum and max profit dynamically
+
+4️⃣ **[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)**  
+- Concepts: Sliding window, HashSet/HashMap  
+- Key Idea: Optimize instead of brute force substring checking
+
+---
+
+## 🔁 Stage 3: Recursion & Backtracking  
+> *Focus:* Recursive thinking, decision trees, backtracking
+
+5️⃣ **[Permutations](https://leetcode.com/problems/permutations/)**  
+- Concepts: DFS, recursion, swapping  
+- Key Idea: Understanding recursion tree generation
+
+6️⃣ **[Subsets](https://leetcode.com/problems/subsets/)**  
+- Concepts: Power set creation, backtracking  
+- Key Idea: Add/remove & explore all combinations
+
+---
+
+## 🌲 Stage 4: Core Data Structures  
+> *Focus:* LinkedList, Stacks, Trees, BFS/DFS
+
+7️⃣ **[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)**  
+- Concepts: Pointer manipulation  
+- Key Idea: Iterative & recursive approaches
+
+8️⃣ **[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)**  
+- Concepts: Tree traversal, Queue, BFS  
+- Key Idea: Level-by-level data collection
+
+---
+
+## 💡 Stage 5: Advanced Problem-Solving  
+> *Focus:* Dynamic Programming, Graph Exploration
+
+9️⃣ **[House Robber](https://leetcode.com/problems/house-robber/)**  
+- Concepts: Dynamic Programming  
+- Key Idea: State reuse & optimal substructure
+
+🔟 **[Number of Islands](https://leetcode.com/problems/number-of-islands/)**  
+- Concepts: DFS/BFS, graph connectivity in grids  
+- Key Idea: Count connected components
+
+---
+
+## ✅ Study Tips:
+- **Always** start with a brute-force idea → optimize later
+- Write and explain complexities: Time & Space
+- Draw recursion stacks, arrays, and data structures
+- Learn common patterns: Sliding Window, DP, BFS/DFS
+
+---
+
+### 🌟 Goal:
+Master problem-solving fundamentals that scale into real-world engineering — the same expectation we have at Meta for strong performers.
+
+Happy coding! 💻🔥
+
